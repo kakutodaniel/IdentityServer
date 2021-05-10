@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="4.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+    <PackageReference Include="StackExchange.Redis.Extensions.AspNetCore" Version="6.4.5" />
+    <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="6.4.5" />
+    <PackageReference Include="StackExchange.Redis.Extensions.Newtonsoft" Version="6.4.5" />
+  </ItemGroup>
+</Project>
